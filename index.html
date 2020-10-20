@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
+    <title>GameLibrary</title>
+</head>
+<body>
+    <h1 id="page-header">Game library</h1>
+    <nav class="game-menu">
+        <a href="" id='filter-none' data-filter='none'>Show All</a>
+        <a href="" id='filter-sp' data-filter='sp'>Single Player</a>
+        <a href="" id='filter-mp' data-filter='mp'>Multi Player</a>
+        <div class="dropdown">
+            <button class="dropbtn">Genre</button>
+            <div class="dropdown-content">
+            </div>
+        </div>
+    </nav>
+
+    <div class="game-wrapper" id="game-wrapper">
+    </div>
+    <div id="game-menu-info" class="game-menu-info">
+        <div class="game-info" id="game-info"></div>
+    </div>
+    <script src="Game.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
